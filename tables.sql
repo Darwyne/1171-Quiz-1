@@ -1,7 +1,7 @@
 DROP TABLE IF EXISTS employees;
 
 CREATE TABLE employees (
-employee_ id serial PRIMARY KEY,
+employee_id serial PRIMARY KEY,
 name text NOT NULL,
 job text NOT NULL,
 salary int NOT NULL
