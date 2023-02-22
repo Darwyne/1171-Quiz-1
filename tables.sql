@@ -20,6 +20,12 @@ INSERT INTO employees (name, job, salary)
 VALUES ('Neima', 'Doctor' , 1500 );
 
 INSERT INTO employees (name, job, salary)
-VALUES ('levie','practitioner, 1500 );
+VALUES ('levie','practitioner', 1500 );
         
-        
+
+SELECT * 
+FROM employees;
+
+SELECT name 
+FROM employees 
+ORDER by name DESC;
