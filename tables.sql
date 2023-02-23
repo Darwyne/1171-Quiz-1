@@ -26,6 +26,12 @@ VALUES ('levie','practitioner', 1500 );
 SELECT * 
 FROM employees;
 
+SELECT *
+employee_id,
+employee_name,
+job,
+salary;
+
 SELECT name 
 FROM employees 
 ORDER by name DESC;
